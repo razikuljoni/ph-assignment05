@@ -2,15 +2,11 @@
     cursor: pointer;
     outline: none;
 }
-#search-btn{
+#search-btn {
     color: white;
-    background: #3B2D64;
+    background: #3b2d64;
 }
 #food-items {
-    /* display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -33,7 +29,7 @@
 .food-name {
     color: black;
     padding: 10px 0;
-    background: white;/**/
+    background: white;
 }
 .container {
     position: relative;
@@ -58,7 +54,7 @@
 .detail-back {
     margin: 10px auto;
     width: 80%;
-    background-color: #3B2D64;
+    background-color: #3b2d64;
     text-align: center;
     color: #fff;
     border-radius: 4px;
@@ -79,10 +75,10 @@
 .detail-heading-2 {
     margin-left: 10px;
 }
-.detail-ul {
+.details-ul {
     list-style: none;
 }
-.detail-ul li {
+.details-ul li {
     margin: 0;
     padding: 0;
 }

@@ -1,4 +1,3 @@
-
 const showFood = () => {
     const searchInput = document.getElementById("search-box").value;
     const foodItems = document.getElementById("food-items");
@@ -21,7 +20,7 @@ const showFood = () => {
                 foodItems.appendChild(foodBox);
             });
         })
-        .catch((error) => alert("Please give a valid name"));
+        .catch((error) => alert("Please give a valid food name"));
 };
 
 const showDetails = (name) => {
@@ -38,17 +37,17 @@ const showDetails = (name) => {
                 </div>
                 <h2 class="detail-heading">${item.strMeal}</h2>
                 <h5 class="detail-heading-2">Ingredients</h5>
-                <ul class="detail-ul">
-                    <li class="detai-li">${item.strIngredient1}</li>
-                    <li class="detai-li">${item.strIngredient2}</li>
-                    <li class="detai-li">${item.strIngredient3}</li>
-                    <li class="detai-li">${item.strIngredient4}</li>
-                    <li class="detai-li">${item.strIngredient5}</li>
-                    <li class="detai-li">${item.strIngredient6}</li>
-                    <li class="detai-li">${item.strIngredient7}</li>
-                    <li class="detai-li">${item.strIngredient8}</li>
-                    <li class="detai-li">${item.strIngredient9}</li>
-                    <li class="detai-li">${item.strIngredient10}</li>
+                <ul class="details-ul">
+                    <li class="details-li">${item.strIngredient1}</li>
+                    <li class="details-li">${item.strIngredient2}</li>
+                    <li class="details-li">${item.strIngredient3}</li>
+                    <li class="details-li">${item.strIngredient4}</li>
+                    <li class="details-li">${item.strIngredient5}</li>
+                    <li class="details-li">${item.strIngredient6}</li>
+                    <li class="details-li">${item.strIngredient7}</li>
+                    <li class="details-li">${item.strIngredient8}</li>
+                    <li class="details-li">${item.strIngredient9}</li>
+                    <li class="details-li">${item.strIngredient10}</li>
                 </ul>
             </div>
             `;
